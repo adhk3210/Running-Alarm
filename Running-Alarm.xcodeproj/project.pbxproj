@@ -13,6 +13,7 @@
 		2BE329B81B9AC1F9003851EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE329B71B9AC1F9003851EE /* Images.xcassets */; };
 		2BE329BB1B9AC1F9003851EE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BE329B91B9AC1F9003851EE /* LaunchScreen.xib */; };
 		2BE329C71B9AC1F9003851EE /* Running_AlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE329C61B9AC1F9003851EE /* Running_AlarmTests.swift */; };
+		9E5A17A91B9B3DB400A28B98 /* AlarmTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5A17A81B9B3DB400A28B98 /* AlarmTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		2BE329C01B9AC1F9003851EE /* Running-AlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Running-AlarmTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BE329C51B9AC1F9003851EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BE329C61B9AC1F9003851EE /* Running_AlarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Running_AlarmTests.swift; sourceTree = "<group>"; };
+		9E5A17A81B9B3DB400A28B98 /* AlarmTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				2BE329B01B9AC1F9003851EE /* AppDelegate.swift */,
 				2BE329B21B9AC1F9003851EE /* ViewController.swift */,
+				9E5A17A81B9B3DB400A28B98 /* AlarmTableViewController.swift */,
 				2BE329B41B9AC1F9003851EE /* Main.storyboard */,
 				2BE329B71B9AC1F9003851EE /* Images.xcassets */,
 				2BE329B91B9AC1F9003851EE /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BE329B31B9AC1F9003851EE /* ViewController.swift in Sources */,
+				9E5A17A91B9B3DB400A28B98 /* AlarmTableViewController.swift in Sources */,
 				2BE329B11B9AC1F9003851EE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +413,7 @@
 				2BE329CC1B9AC1F9003851EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BE329CD1B9AC1F9003851EE /* Build configuration list for PBXNativeTarget "Running-AlarmTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				2BE329CF1B9AC1F9003851EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
